@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 class Fotografia(models.Model):
     
@@ -15,6 +16,7 @@ class Fotografia(models.Model):
     descricao = models.TextField(null=False, blank=False)
     foto = models.CharField(max_length=150, null=False, blank=False)
     publicada = models.BooleanField(default=False) # Indica se a foto está publicada ou não, fazer filtro na view 
+    data_foto = models.DateTimeField(default=datetime.now,  null=False, blank=False)
 
     def __str__(self):
         return f"Fotografia [nome={self.nome}]"
