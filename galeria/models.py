@@ -19,4 +19,4 @@ class Fotografia(models.Model):
     data_foto = models.DateTimeField(default=datetime.now,  null=False, blank=False) # Data e hora da foto, default define o valor padrão
 
     def __str__(self):
-        return f"Fotografia [nome={self.nome}]"
+        return self.nome
