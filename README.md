@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)  
 ![Django](https://img.shields.io/badge/Django-5.x-green?logo=django)  
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)  
-![License](https://img.shields.io/badge/license-MIT-lightgrey)  
 ![GitHub](https://img.shields.io/badge/GitHub-nortonacosta-black?logo=github)  
 
 Projeto desenvolvido durante o curso de **Django** da [Alura](https://www.alura.com.br/).  
